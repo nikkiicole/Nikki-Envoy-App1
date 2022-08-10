@@ -17,6 +17,38 @@ app.post('/hello-options', (req, res) => {
         label: 'Aloha',
         value: 'Aloha',
       },
+      {
+        label: 'Ciao',
+        value: 'Ciao',
+      },
+      {
+        label: 'Gutten Tag',
+        value: 'Gutten Tag',
+      },
+      {
+        label: 'Salaam',
+        value: 'Salaam',
+      },
+      {
+        label: 'Ola',
+        value: 'Ola',
+      },
+      {
+        label: 'Halo',
+        value: 'Halo',
+      },
+      {
+        label: 'Jambo',
+        value: 'Jambo',
+      },
+      {
+        label: 'Merhaba',
+        value: 'Merhaba',
+      },
+      {
+        label: 'Szia',
+        value: 'Szia',
+      },
     ]);
   });
 
@@ -33,6 +65,42 @@ app.post('/hello-options', (req, res) => {
       {
         label: 'Aloha',
         value: 'Aloha',
+      },
+      {
+        label: 'Arrivederci',
+        value: 'Arrivederci',
+      },
+      {
+        label: 'Au Revoir',
+        value: 'Au Revoir',
+      },
+      {
+        label: 'Adeus',
+        value: 'Adeus',
+      },
+      {
+        label: 'Auf Wiedersehen',
+        value: 'Auf Wiedersehen',
+      },
+      {
+        label: 'Sayonara',
+        value: 'Sayonara',
+      },
+      {
+        label: 'Do svidaniya',
+        value: 'Do svidaniya',
+      },
+      {
+        label: 'Annyeong',
+        value: 'Annyeong',
+      },
+      {
+        label: 'Slan',
+        value: 'Slan',
+      },
+      {
+        label: 'Tot ziens',
+        value: 'Tot ziens',
       },
     ]);
   });
