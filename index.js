@@ -3,6 +3,10 @@ const { middleware, errorMiddleware } = require('@envoy/envoy-integrations-sdk')
 const app = express();
 app.use(middleware());
 
+app.get('/', function (req, res) {
+    res.render('index', {});
+  });
+
 app.post('/hello-options', (req, res) => {
     res.send([
       {
@@ -143,6 +147,6 @@ app.post('/hello-options', (req, res) => {
 
   app.use(errorMiddleware());
 
-const listener = app.listen(process.env.PORT || 0, () => {
+const listener = app.listen(process.env.PORT || 44069, () => {
   console.log(`Listening on port ${listener.address().port}`);
 });
